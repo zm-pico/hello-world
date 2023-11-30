@@ -1,8 +1,21 @@
-//自己实现字符串拷贝函数
-char* StrCpy(char* src){
-//1、计算src的长度len
-//2、用malloc申请长度为len+1的内存空间
-//3、将src字符串逐个字符复制到新申请的内存空间
-//4、新申请内存空间的最后—位放入'\0'
-//5、返回新申请的内存空间指针
+/*
+int len(char* src){
+    int n = 0;
+    for(int i = 0; src[i] != 0; i++){
+       n++;
+    }
+    return n;
 }
+char* StrCpy(char* src){
+     int l = len(src);
+     char* dst = (char*) malloc(l+1);
+     for(int i = 0; i <= l ; i++){
+        dst[i] = src[i];
+        dst[l] = '\0' ;
+     } 
+     return dst;
+}
+*/
+/**
+远程edit
+**/
