@@ -1,0 +1,21 @@
+/*
+int len(char* src){
+    int n = 0;
+    for(int i = 0; src[i] != 0; i++){
+       n++;
+    }
+    return n;
+}
+char* StrCpy(char* src){
+     int l = len(src);
+     char* dst = (char*) malloc(l+1);
+     for(int i = 0; i <= l ; i++){
+        dst[i] = src[i];
+        dst[l] = '\0' ;
+     } 
+     return dst;
+}
+*/
+/**
+远程edit
+**/
